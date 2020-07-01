@@ -38,7 +38,11 @@ main::after {
   width: 40%;
   background-color: #730671;
 }
-.col-right {
+aside {
+  height: 100%
+}
+#col-right {
+  display: block;
   float: left;
   height: 50%;
   width: 29%;
@@ -46,13 +50,17 @@ main::after {
   background-color: #CC87DA;
 }
 
-.right2 {
+#right2{
+  display: block;
   float: left;
   height: 49%;
   width: 29%;
-  margin-top: 1%;
   margin-left: 1%;
+  margin-top: 1%;
   background-color: #CC87DA;
+
+
+
 }
 
 footer {
